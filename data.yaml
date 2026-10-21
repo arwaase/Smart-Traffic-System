@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Bus', 'Car', 'Motorcycle', 'Traffic-police motorcycle', 'Truck', 'Van']
+
+roboflow:
+  workspace: arwa-asem
+  project: my-first-project-qqsc8
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/arwa-asem/my-first-project-qqsc8/1
